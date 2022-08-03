@@ -9,10 +9,10 @@ jobs:
     steps:
     - name: Run emulator
       uses: reactivecircus/android-emulator-runner@v2
-      # with:
-      #   api-level: 29
+      with:
+        api-level: 29
       #   ndk: 21.4.7075529
       #   cmake: 3.23.2
       #   target: google_apis
       #   emulator-build: 7425822
-      #   script: echo "hello world"
+        script: echo "hello world"
